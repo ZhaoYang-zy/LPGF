@@ -1,0 +1,7 @@
+{
+    "lr":0.0002,
+    "batch_size":8,
+    "input_size":[256, 256],
+    "test_metrics":["csi_15", "csi_20", "csi_30", "pod_30", "far_30", "mse"]
+
+}

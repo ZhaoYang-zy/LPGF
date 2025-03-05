@@ -1,0 +1,15 @@
+{
+    "lr":0.02,
+    "batch_size":8,
+    "r_sampling_step_1" :8000,
+    "r_sampling_step_2": 16000,
+    "r_exp_alpha": 1000,
+    "patch_size":4,
+    "rnn_num_layers":4,
+    "rnn_num_hidden":64,
+    "rnn_filter_size":5,
+    "decouple_beta":0.1,
+    "rnn_stride":1,
+    "rnn_layer_norm":true,
+    "test_metrics":["csi_15", "csi_20", "csi_30", "pod_30", "far_30", "mse"]
+}

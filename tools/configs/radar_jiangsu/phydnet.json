@@ -1,0 +1,12 @@
+{
+    "batch_size":8,
+    "lr":0.0002,
+    "input_size" : [256, 256],
+    "self.n_layers_p" : 1,
+    "n_layers_c" : 3,
+    "kernal_size_c" : 3,
+    "input_dim" : 64,
+    "hidden_dim" : [128, 128, 64],
+    "patch_size" : 4,
+    "test_metrics":["csi_15", "csi_20", "csi_30", "pod_30", "far_30", "mse"]
+}

@@ -1,0 +1,17 @@
+{
+    "batch_size":8,
+    "input_size":[256,256],
+    "prompt":1,
+    "patch_size":4,
+    "win_patch":4,
+    "around_patch":1,
+    "local_num_hidden":64,
+    "local_st_hidden":128,
+    "global_num_hidden":256,
+    "spatio_blocks":8,
+    "groups":16,
+    "lr":0.0002,
+    "rate":0.05,
+    "test_metrics":["csi_15", "csi_20", "csi_30", "pod_30", "far_30", "mse"]
+
+}

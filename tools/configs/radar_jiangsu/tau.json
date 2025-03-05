@@ -1,0 +1,19 @@
+{
+    "batch_size":8,
+    "input_size":[256,256],
+    "hid_S":64, 
+    "hid_T":128, 
+    "N_S":4, 
+    "N_T":8, 
+    "groups":4,
+    "model_type":"tau",
+    "mlp_ratio":8.0, 
+    "drop":0.0, 
+    "drop_path":0.1, 
+    "alpha" : 0.1,
+    "spatio_kernel_enc":3,
+    "spatio_kernel_dec":3,
+    "lr":0.001,
+    "test_metrics":["csi_15", "csi_20", "csi_30", "pod_30", "far_30", "mse"]
+}
+    

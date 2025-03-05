@@ -1,0 +1,13 @@
+{
+    "lr":0.00005,
+    "batch_size":8,
+    "num_layers" : 2,
+    "input_size" :[256, 256],
+    "patch_size":4,
+    "embed_dim":128,
+    "depths_downsample":[4, 6],
+    "depths_upsample":[6, 4],
+    "num_heads":[4, 8],
+    "window_size":4,
+    "test_metrics":["csi_15", "csi_20", "csi_30", "pod_30", "far_30", "mse"]
+}
